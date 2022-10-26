@@ -1,17 +1,21 @@
 # unity3d-animator-js
 A javascript replica of Unity3D Animator. notice l state a replica because obviously Unity has wayyyy more functionality built in. Also im not sure if Unity transitions from top-down or bottom-up but l wrote this to transition top-down.
 
+# Usage
+
 
 ```js
 	// Initailize Animator with data from Unity. Load both the *.controller and *.controller.meta
-	// LoadText ( url ) should be a function that 
+	// LoadText ( url ) should be a function that loads text
 const animator = new Animator ();
 await animator.load ( 
 	await LoadText ( "asset/animator/player/PlayerManager.controller" ), 
 	await LoadText ( "asset/animator/player/PlayerManager.controller.meta" ) );
 ```
 
+
 Hook into the Animator transition notifications
+
 
 ```js
 	// Retrieve StateMachine defined in controller yaml by "m_name"
@@ -45,7 +49,9 @@ animatorStateMachine.subscribe ( "release", function ( notify, animatorComponent
 } );
 ```
 
+
 Retrieve a parameter and change its value which will transition the StateMachine 
+
 
 ```js
 	// change a parameter and let the Animator transition to a new state, parameter should
@@ -54,3 +60,8 @@ const selectParameter = animator.parameters ().get ( "Select" );
 selectParameter.val ( true );
 
 ```
+
+
+# Help me out so l can open-source more code. This is just a tip of the iceberg.
+
+[![Pay Pal Donation](http://172.105.99.59/image/paypal-qrcode.png)]
