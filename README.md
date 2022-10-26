@@ -62,6 +62,8 @@ selectParameter.val ( true );
 ```
 
 
-# Help me out so l can open-source more code. This is just a tip of the iceberg.
+# Help me out! 
 
-[![Pay Pal Donation](http://172.105.99.59/image/paypal-qrcode.png)]
+So l can open-source more code. This is just a tip of the iceberg.
+
+[![Pay Pal Donation](http://172.105.99.59/image/paypal-qrcode.png) =200x]
