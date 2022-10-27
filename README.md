@@ -8,6 +8,7 @@ A javascript replica of Unity3D Animator. notice l state a replica because obvio
 	// Initailize Animator with data from Unity. Load both the *.controller and *.controller.meta
 	// LoadText ( url ) should be a function that loads text
 const animator = new Animator ();
+animator.init ();
 await animator.load ( 
 	await LoadText ( "asset/animator/player/PlayerManager.controller" ), 
 	await LoadText ( "asset/animator/player/PlayerManager.controller.meta" ) );
@@ -67,3 +68,5 @@ selectParameter.val ( true );
 So l can open-source more code. This is just a tip of the iceberg.
 
 <img src="http://172.105.99.59/image/paypal-qrcode.png" width="200" height="200">
+ 
+<a href="https://www.buymeacoffee.com/symphonee"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=symphonee&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
