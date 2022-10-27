@@ -69,4 +69,4 @@ So l can open-source more code. This is just a tip of the iceberg.
 
 <img src="http://172.105.99.59/image/paypal-qrcode.png" width="200" height="200">
  
-<a href="https://www.buymeacoffee.com/symphonee"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=symphonee&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<a href="https://www.buymeacoffee.com/symphonee" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=symphonee&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
